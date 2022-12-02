@@ -1,32 +1,15 @@
-# adventure-of-code-2022
+# Adventure of Code 2022
 
-FIXME: description
+## About
 
-## Installation
+Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as interview prep, company training, university coursework, practice problems, a speed contest, or to challenge each other.
 
-Download from http://example.com/FIXME.
-
+You can see more at https://adventofcode.com/2022/about
 ## Usage
 
-FIXME: explanation
+To run all tests:
 
-    $ java -jar adventure-of-code-2022-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+    $ lein test
 
 ## License
 
