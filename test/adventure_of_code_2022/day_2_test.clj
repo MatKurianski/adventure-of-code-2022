@@ -2,7 +2,7 @@
   (:require [clojure.test :refer :all]
             [adventure-of-code-2022.day-2 :as day-2]))
 
-(deftest rock-paper-scissors-part-1x-test
+(deftest rock-paper-scissors-part-1-test
   (testing "Testing rock-paper-scissors-part-1"
     (let [input-1 (slurp "./resources/test/day_2/input1.txt")
           input-2 (slurp "./resources/test/day_2/input2.txt")]
