@@ -10,20 +10,20 @@
       inc))
 
 (defn ^:private line-points
-  [acc line]
+  [line]
   (->> line
-       (partition-all (/ (count line) 2))
+       (partition (/ (count line) 2))
        (map set)
        (apply set/intersection)
        (first)
-       (letter-points)
-       (+ acc)))
+       (letter-points)))
 
 (defn rucksack-organization-part-1
   [input]
   (->> input
        (str/split-lines)
-       (reduce line-points 0)))
+       (map line-points)
+       (apply +)))
 
 (defn rucksack-organization-part-2
   [input]
